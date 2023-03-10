@@ -1,5 +1,5 @@
 
-#infdef __COMP_SIM_H__
+#ifndef __COMP_SIM_H__
 #define __COMP_SIM_H__
 
 
