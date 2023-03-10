@@ -12,10 +12,10 @@
 
 
 
-struct textfile {
-	int id, hours, minutes, day, month, year;
-	char file_name[20];
-	time_t now;
+typedef struct textfile {
+	int np_id, np_hours, np_minutes, np_day, np_month, np_year;
+	char np_file_name[20];
+	time_t np_now;
 }notepad;
 
 struct tm *local;
