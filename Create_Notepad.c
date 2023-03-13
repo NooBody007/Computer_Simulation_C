@@ -10,7 +10,7 @@ int create_notepad(int id,char file_name[30],int hours, int minutes, int day, in
 	
 	if(fp == NULL)
 	{
-		printf("An error occurred while opening the file.");
+		printf("\nAn error occurred while opening the file.\n");
 		return 1;
 	}
 	else
