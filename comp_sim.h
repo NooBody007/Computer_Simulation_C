@@ -21,7 +21,7 @@ typedef struct textfile {
 struct tm *local;
 
 //creates a notepad file
-int create_notepad(int id,char file_name[30],int hours, int minutes, int day, int month, int year);
+int create_notepad(int id,char file_name[30]);
 
 //writes to selected notepad file
 int write_notepad(int id);

@@ -1,7 +1,7 @@
 #include "comp_sim.h"
 
 
-int create_notepad(int id,char file_name[30],int hours, int minutes, int day, int month, int year)
+int create_notepad(int id,char file_name[30])
 {	
 	FILE *fp = NULL;
 	
