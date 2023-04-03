@@ -1,7 +1,7 @@
 #include "comp_sim.h"
 
 
-int read_notepad(int id)
+int view_notepad()
 {
 	FILE *fp = NULL;
 	

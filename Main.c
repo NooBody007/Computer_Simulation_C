@@ -37,10 +37,7 @@ int main()
 			break;
 		
 		case 3:
-			printf("Select ID: ");
-			scanf("%d",&id);
-			fflush(stdin);
-			read_notepad(id);
+			view_notepad();
 			break;
 			
 		default:
