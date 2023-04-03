@@ -44,7 +44,7 @@ int create_notepad(int id,char file_name[30])
 		fclose(fp);
 		
 		//Memory freed
-		free(fp);
+		free(new_np);
 		
 		return 0;
 	}
